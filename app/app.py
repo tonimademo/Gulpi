@@ -27,3 +27,4 @@ def index():
         return make_response(jsonify(dict(result=True, value='test_route_index')))
 
     return 'El app funciona'
+
